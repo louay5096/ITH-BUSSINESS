@@ -1,0 +1,1827 @@
+<head>
+    <style>
+       
+             
+           body {
+  background: linear-gradient(135deg, #f5f5f5, #e6e6e6);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  padding-top:120px;
+}
+.form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid #767676;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #fc23d1;
+  box-shadow: 0 0 0 2px rgba(252,35,209,0.2);
+}
+input[type="submit"] {
+  width: 100%;
+  background: #fc23d1;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  background: #e81fbf;
+}
+ body {
+  background: linear-gradient(135deg, #f5f5f5, #e6e6e6);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid #767676;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #fc23d1;
+  box-shadow: 0 0 0 2px rgba(252,35,209,0.2);
+}
+input[type="submit"] {
+  width: 100%;
+  background: #fc23d1;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  background: #e81fbf;
+}
+
+        h5{background-color: rgb(132, 132, 132);
+        display: inline-block;          
+        padding: 12px 16px;              
+        border: 2px solid #ce009e;         
+        border-radius: 8px;              
+                         
+        font-weight: bold;               
+        color: #f5f5f5;                     
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+    }
+   
+        .bloc{display: inline-block;
+        width: 45%;
+    vertical-align: top;
+margin:2%;}
+
+nav{gap:40px;
+    justify-content: center;
+display: flex;}
+.logo{
+  justify-content: center;
+  height: 200px;
+  width: 170px;
+  padding-left:35%;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+}
+
+.submenu a:hover {
+  background-color: #444;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+  color: antiquewhite;
+  
+}
+.consent {
+  margin: 15px 0;
+  font-size: 13px;
+  color: #555;
+}
+.form-container {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #767676;
+  margin-bottom: 15px;
+}
+
+.contact-item {
+  color: #767676;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.submenu  {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 180px;
+  z-index: 1000;
+}
+.dropdown:hover .submenu,.submenu:hover {
+  display: block;
+}
+.dropdown {
+  position: relative;
+}
+.contact-header {
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+.contact-header h1 {
+  color: #767676;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.contact-header .line {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #fc23d1;
+  margin: 0 auto 15px;
+  border-radius: 2px;
+}
+
+.contact-header p {
+  color: #767676;
+  font-size: 15px;
+}
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #767676;
+  margin-bottom: 50px;
+}
+
+.why-schema {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.why-card {
+  background: #fff;
+  width: 280px;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+}
+
+.why-card h3 {
+  color: #fc23d1;
+  margin-bottom: 15px;
+}
+
+.why-card p {
+  color: #555;
+  font-size: 15px;
+}
+.image-hover-container {
+  width: 2000px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin: 60px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.image-hover-container img {
+  width: 100%;          
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+
+
+.image-hover-container:hover img {
+  transform: translateX(-15%);
+}
+
+
+
+        h5{background-color: rgb(132, 132, 132);
+        display: inline-block;          
+        padding: 12px 16px;              
+        border: 2px solid #ce009e;         
+        border-radius: 8px;              
+                         
+        font-weight: bold;               
+        color: #f5f5f5;                     
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+    }
+   
+        .bloc{display: inline-block;
+        width: 45%;
+    vertical-align: top;
+margin:2%;}
+
+nav{gap:40px;
+    justify-content: center;
+display: flex;}
+.logo{
+  justify-content: center;
+  height: 200px;
+  width: 170px;
+  padding-left:35%;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+}
+
+.submenu a:hover {
+  background-color: #444;
+}
+ body {
+  background: linear-gradient(135deg, #f5f5f5, #e6e6e6);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid #767676;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #fc23d1;
+  box-shadow: 0 0 0 2px rgba(252,35,209,0.2);
+}
+input[type="submit"] {
+  width: 100%;
+  background: #fc23d1;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  background: #e81fbf;
+}
+
+        h5{background-color: rgb(132, 132, 132);
+        display: inline-block;          
+        padding: 12px 16px;              
+        border: 2px solid #ce009e;         
+        border-radius: 8px;              
+                         
+        font-weight: bold;               
+        color: #f5f5f5;                     
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+    }
+   
+        .bloc{display: inline-block;
+        width: 45%;
+    vertical-align: top;
+margin:2%;}
+
+nav{gap:40px;
+    justify-content: center;
+display: flex;}
+.logo{
+  justify-content: center;
+  height: 200px;
+  width: 170px;
+  padding-left:35%;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+}
+
+.submenu a:hover {
+  background-color: #444;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+  color: antiquewhite;
+  
+}
+.consent {
+  margin: 15px 0;
+  font-size: 13px;
+  color: #555;
+}
+.form-container {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #767676;
+  margin-bottom: 15px;
+}
+
+.contact-item {
+  color: #767676;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.submenu  {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 180px;
+  z-index: 1000;
+}
+.dropdown:hover .submenu,.submenu:hover {
+  display: block;
+}
+.dropdown {
+  position: relative;
+}
+.contact-header {
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+.contact-header h1 {
+  color: #767676;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.contact-header .line {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #fc23d1;
+  margin: 0 auto 15px;
+  border-radius: 2px;
+}
+
+.contact-header p {
+  color: #767676;
+  font-size: 15px;
+}
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #767676;
+  margin-bottom: 50px;
+}
+
+.why-schema {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.why-card {
+  background: #fff;
+  width: 280px;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+}
+
+.why-card h3 {
+  color: #fc23d1;
+  margin-bottom: 15px;
+}
+
+.why-card p {
+  color: #555;
+  font-size: 15px;
+}
+.image-hover-container {
+  width: 2000px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin: 60px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.image-hover-container img {
+  width: 100%;          
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+
+
+.image-hover-container:hover img {
+  transform: translateX(-15%);
+}
+.enjeux-section {
+  padding: 80px 10%;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.enjeux-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.enjeux-subtitle {
+  color: #767676;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.enjeux-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.enjeu-card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.enjeu-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 45px rgba(252, 35, 209, 0.25);
+}
+
+.enjeu-icon {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.enjeu-card h3 {
+  color: #fc23d1;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.enjeu-card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+
+.submenu a {
+  display: block;
+  padding: 10px;
+  color: antiquewhite;
+  
+}
+.consent {
+  margin: 15px 0;
+  font-size: 13px;
+  color: #555;
+}
+.form-container {
+  animation: fadeIn 0.8s ease;
+}
+ body {
+  background: linear-gradient(135deg, #f5f5f5, #e6e6e6);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid #767676;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #fc23d1;
+  box-shadow: 0 0 0 2px rgba(252,35,209,0.2);
+}
+input[type="submit"] {
+  width: 100%;
+  background: #fc23d1;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  background: #e81fbf;
+}
+
+        h5{background-color: rgb(132, 132, 132);
+        display: inline-block;          
+        padding: 12px 16px;              
+        border: 2px solid #ce009e;         
+        border-radius: 8px;              
+                         
+        font-weight: bold;               
+        color: #f5f5f5;                     
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+    }
+   
+        .bloc{display: inline-block;
+        width: 45%;
+    vertical-align: top;
+margin:2%;}
+nav{gap:40px;
+    justify-content: center;
+display: flex;}
+.logo{
+  justify-content: center;
+  height: 200px;
+  width: 170px;
+  padding-left:35%;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+}
+
+.submenu a:hover {
+  background-color: #444;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+  color: antiquewhite;
+  
+}
+.consent {
+  margin: 15px 0;
+  font-size: 13px;
+  color: #555;
+}
+.form-container {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #767676;
+  margin-bottom: 15px;
+}
+
+.contact-item {
+  color: #767676;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.submenu  {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 180px;
+  z-index: 1000;
+}
+.dropdown:hover .submenu,.submenu:hover {
+  display: block;
+}
+.dropdown {
+  position: relative;
+}
+.contact-header {
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+.contact-header h1 {
+  color: #767676;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.contact-header .line {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #fc23d1;
+  margin: 0 auto 15px;
+  border-radius: 2px;
+}
+
+.contact-header p {
+  color: #767676;
+  font-size: 15px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #767676;
+  margin-bottom: 15px;
+}
+
+.contact-item {
+  color: #767676;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.submenu  {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 180px;
+  z-index: 1000;
+}
+.dropdown:hover .submenu,.submenu:hover {
+  display: block;
+}
+.dropdown {
+  position: relative;
+}
+.contact-header {
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+.contact-header h1 {
+  color: #767676;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.contact-header .line {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #fc23d1;
+  margin: 0 auto 15px;
+  border-radius: 2px;
+}
+
+.contact-header p {
+  color: #767676;
+  font-size: 15px;
+}
+.services-schema {
+  padding: 80px 10%;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.services-subtitle {
+  color: #767676;
+  margin-bottom: 60px;
+}
+
+.schema-container {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.schema-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #fc23d1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 20px 40px rgba(252,35,209,0.4);
+}
+
+.schema-center span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.service-item {
+  position: absolute;
+  width: 140px;
+  padding: 12px;
+  background: white;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.service-item:hover {
+  transform: scale(1.1);
+  background: #fc23d1;
+  color: white;
+}
+
+.imgg{
+  margin-left: 30px;   
+  margin-top: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.box {
+  display: flex;
+  align-items: center;   
+  gap: 15px;             
+}
+
+.box img {
+  width: 120px;
+}
+h1{color: #fc23d1;
+}
+.ff{
+    margin-left: 20%;
+    
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tree {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Racine principale */
+.root {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #e733ff;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Ligne verticale */
+.root::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  background: #333;
+  left: 50%;
+  top: 100%;
+}
+
+/* Conteneur des branches */
+.branches {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Chaque racine */
+.node {
+  padding: 12px 18px;
+  background: #727272;
+  color: white;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Ligne entre la racine principale et chaque node */
+.node::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: #333;
+  top: -30px;
+  left: 50%;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tree {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Racine principale */
+.root {
+  display: inline-block;
+  padding: 15px 85px;
+  background: #ff3dc5;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Ligne verticale */
+.root::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  background: #333;
+  left: 50%;
+  top: 100%;
+}
+
+/* Conteneur des branches */
+.branches {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Chaque racine */
+.node {
+  padding: 12px 18px;
+  background: #666666;
+  color: white;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Ligne entre la racine principale et chaque node */
+.node::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: #333;
+  top: -30px;
+  left: 50%;
+}
+              
+    
+    pre{font-weight: bolder;
+        font-size: medium;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+      }
+        .jd{text-align: center;
+        border:2px solid #007e9e;
+    padding: 12px 16px;
+background-color:rgb(8, 0, 116);
+color: antiquewhite;
+font-size: 300%;}
+        .bloc{display: inline-block;
+        width: 45%;
+    vertical-align: top;
+margin:2%;
+}
+
+nav{gap:40px;
+    justify-content: center;
+display: flex;}
+.q{font-size: large;
+font-weight: bolder;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);}
+        table{background-color: antiquewhite;}
+
+.logo{
+  justify-content: center;
+  height: 350px;
+  width: 240px;
+  padding-left:35%;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+}
+
+.submenu a:hover {
+  background-color: #444;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+  color: antiquewhite;
+  
+}
+
+.submenu  {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 180px;
+  z-index: 1000;
+}
+.dropdown:hover .submenu,.submenu:hover {
+  display: block;
+}
+.dropdown {
+  position: relative;
+}
+<style>
+        body {
+  background: linear-gradient(135deg, #f5f5f5, #e6e6e6);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid #767676;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #fc23d1;
+  box-shadow: 0 0 0 2px rgba(252,35,209,0.2);
+}
+input[type="submit"] {
+  width: 100%;
+  background: #fc23d1;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  background: #e81fbf;
+}
+
+        h5{background-color: rgb(132, 132, 132);
+        display: inline-block;          
+        padding: 12px 16px;              
+        border: 2px solid #ce009e;         
+        border-radius: 8px;              
+                         
+        font-weight: bold;               
+        color: #f5f5f5;                     
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+    }
+   
+        .bloc{display: inline-block;
+        width: 45%;
+    vertical-align: top;
+margin:2%;}
+header{header{
+  background:#777;
+  padding:15px 20px;
+  text-align:center;
+
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1000;
+}
+
+a{color: antiquewhite;}
+}
+nav{gap:40px;
+    justify-content: center;
+display: flex;}
+.logo{
+  justify-content: center;
+  height: 200px;
+  width: 170px;
+  padding-left:35%;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+}
+
+.submenu a:hover {
+  background-color: #444;
+}
+.submenu a {
+  display: block;
+  padding: 10px;
+  color: antiquewhite;
+  
+}
+.consent {
+  margin: 15px 0;
+  font-size: 13px;
+  color: #555;
+}
+.form-container {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #767676;
+  margin-bottom: 15px;
+}
+
+.contact-item {
+  color: #767676;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.submenu  {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 180px;
+  z-index: 1000;
+}
+.dropdown:hover .submenu,.submenu:hover {
+  display: block;
+}
+.dropdown {
+  position: relative;
+}
+.contact-header {
+  text-align: center;
+  margin: 60px 0 40px;
+}
+
+.contact-header h1 {
+  color: #767676;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.contact-header .line {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #fc23d1;
+  margin: 0 auto 15px;
+  border-radius: 2px;
+}
+
+.contact-header p {
+  color: #767676;
+  font-size: 15px;
+}
+.services-schema {
+  padding: 80px 10%;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.services-subtitle {
+  color: #767676;
+  margin-bottom: 60px;
+}
+
+.schema-container {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.schema-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #fc23d1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 20px 40px rgba(252,35,209,0.4);
+}
+
+.schema-center span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.service-item {
+  position: absolute;
+  width: 140px;
+  padding: 12px;
+  background: white;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.service-item:hover {
+  transform: scale(1.1);
+  background: #fc23d1;
+  color: white;
+}
+
+
+.s1 { top: 0; left: 50%; transform: translateX(-50%); }
+.s2 { top: 15%; right: 0; }
+.s3 { bottom: 15%; right: 0; }
+.s4 { bottom: 0; left: 50%; transform: translateX(-50%); }
+.s5 { bottom: 15%; left: 0; }
+.s6 { top: 15%; left: 0; }
+.s7 { top: 50%; right: -20px; transform: translateY(-50%); }
+
+.blocks {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* باش يهبطو كي تصغر الشاشة */
+}
+
+.block {
+  background: white;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.block h3 {
+  color: #fc23d1;
+}
+
+.block:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.blockk p {
+  font-size: 15px;
+  line-height: 1.8;      /* مسافة بين الأسطر */
+  color: #555;
+  text-align: justify;  /* ينسّق النص */
+  margin-top: 10px;
+}
+.blockk {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.blockk p {
+  max-height: 120px;
+  overflow: hidden;
+}
+.blockk {
+  box-shadow: 0 15px 35px rgba(252, 35, 209, 0.4);
+  transform: translateY(-6px);
+}
+body{
+  font-family:'Segoe UI',sans-serif;
+  background:linear-gradient(135deg,#f5f5f5,#e6e6e6);
+  color:#333;
+
+  padding-top:120px; /* ارتفاع الهيدر */
+}
+body{
+  font-family:'Segoe UI',sans-serif;
+  background:linear-gradient(135deg,#f5f5f5,#e6e6e6);
+  color:#333;
+
+  padding-top:120px; /* ارتفاع الهيدر */
+}
+header{
+  background:#777;
+  padding:15px 20px;
+  text-align:center;
+
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1000;
+}
+
+header{
+  transition:0.3s;
+}
+
+body:has(:target) header{
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+.logo{
+  justify-content: center;
+  height: 350px;
+  width: 240px;
+  padding-left:35%;
+}
+</style>
+<img src="000.png" class="logo">
+    <header>
+        <nav>
+      
+      <a href="#accueil">Acceuil</a>
+        <div class="dropdown">
+      <a href="#Nosservices">Nos services</a>
+      <div class="submenu">
+        <a href="#mynetwork">My Network</a>
+        <a href="#mysupport">My Support</a>
+        <a href="#my365">My-365</a>
+        <a href="#myworkplace">My Workplace</a>
+        <a href="#mysys">My-SYS</a>
+        <a href="#myitil">My-ITIL</a>
+        <a href="#myreport">My-Report</a>
+
+      </div></div>
+          <a href="#Enjeux">Enjeux</a>
+        <a href="#pourquoi">Pourquoi ITH</a>
+        <a href="#form">Contact</a></nav>
+    </header>
+</head>
+<body>
+   <div class="blockk"><h6 id="accueil"> Nous sommes une équipe d’experts en technologies de l’information et en service client, réunis pour créer une startup innovante. Notre mission : offrir des services de conseil diversifiés et transformer les méthodes de gestion des services informatiques pour les utilisateurs. Fondée en 2025, notre organisation capitalise sur plus de 20 ans d’expérience de ses fondateurs dans le secteur. Nous nous engageons à accompagner nos partenaires et clients dans l’amélioration continue de la qualité des services informatiques qu’ils proposent à leurs utilisateurs. Notre ambition est de mener à bien des projets d’infogérance de taille petite et moyenne, tout en accélérant le développement des compétences des équipes impliquées. Grâce à cet accompagnement, ces acteurs sont en mesure de délivrer des services d’une qualité exceptionnelle.
+</h6></div>
+<h5>Notre vision</h5>
+<div class="blockk"><h4>D’une façon indépendante par rapport à la taille de la structure, l’ensemble des utilisateurs ont besoin d’une éfficacité accru pour répondre à leurs besoins en support. Des équipes compétentes et flexibles seront à même capable d’offrir une expérience utilisateur à la hauteur de leurs attentes
+</h4></div>
+<h5>Notre Mission</h5>
+<div class="blockk"><h4>Décharger vos équipes des activités auxiliaires afin qu’ils soient concentrés sur leur métiers et leurs tâches de forte valeur ajoutée. Nous nous occupons de répondre aux attentes de vos utilisateurs et répondons à leurs attentes tout en garantissant un haut niveau de satisfaction.
+</h4></div>
+<h5>Notre engagement : 
+Délivrer une prestation opérationnelle d’excellence dans le cadre d’un partenariat durable et en améliorant l’expérience utilisateur
+</h5>
+
+<section class="services-schema">
+  <h2 class="services-title" id="Nosservices">Nos Services</h2>
+  <p class="services-subtitle">
+    Une offre structurée et modulaire pour couvrir l’ensemble de vos besoins IT.
+  </p>
+
+  <div class="image"></div>
+  <div class="schema-container">
+
+    <div class="schema-center">
+      <h3>ITH</h3>
+      <span>My Services</span>
+    </div>
+
+   <a href="#mynetwork"><div class="service-item s1">My-Network</div></a>
+    <a href="#mysupport"><div class="service-item s2">My-Support</div></a>
+   <a href="#my365"> <div class="service-item s3">My-365</div></a>
+   <a href="#myworkplace"> <div class="service-item s4">My-Workplace</div></a>
+    <a href="#mysys"><div class="service-item s5">My-SYS</div></a>
+    <a href="#myitil"><div class="service-item s6">My-ITIL</div></a>
+    <a href="#myreport"><div class="service-item s7">My-Report</div></a>
+
+  </div>
+</section>
+<div class="blockk">
+    <div class="box">
+    <img src="mynetwork.jpg"class=imgg id="mynetwork">
+    <h1>My-Network</h1>
+   
+    
+</div>
+<h2 class="ff">Une équipe de techniciens en supervision systèmes et réseaux, qui aura pour mission de Surveiller les équipements (switch, routeurs, firewall) svous aide à détecter les incidents réseau d’une façon proactive en 24/7/365 
+<h4 class="ff">Point d’attention</h4>
+<div class="tree">
+  <div class="root">Vous souhaitez garantir la haute disponibilité de vos réseaux, nous serons en mesure de </div>
+
+  <div class="branches">
+    <div class="node">Surveillance des équipements critiques
+</div>
+    <div class="node">Envoi d’alertes + rapports périodiques
+</div>
+    <div class="node">Suivi de bande passante, latence, disponibilité
+</div>
+    <div class="node">Détection et résolution proactive
+</div>
+    <div class="node">Surveillance des accès, détection d’intrusion
+</div>
+  </div>
+</div>
+<div class="box">
+    <img src="mysupport.jpg"class=imgg id="mysupport">
+    <h1>My-Support</h1>
+    <h2 class="ff">Une équipe de techniciens en informatique disponibles en 24/7/365 pour intervenir à distance afin d’accompagner vos utilisateurs à résoudre leurs incidents bureautique et applicatif, mais aussi pour la prise en charge du suivi de leur tickets de bout en bout. Une formule adaptée à vos besoins en équipe dédiée ou mutualisée avec un référent dédié pour vos users, ce qui garanti à la fois la capitalisation et la gestion des pics de production. 
+</h2></div>
+   <div class="tree">
+  <div class="root">Vous avez un problème sur vos PC, sur votre réseau ? </div>
+  <div class="branches">
+    <div class="node">Surveillance des équipements critiques
+</div>
+ <div class="node">Envoi d’alertes + rapports périodiques
+</div>
+ <div class="node">Suivi de bande passante, latence, disponibilité
+</div>
+  <div class="node">Détection et résolution proactive
+</div>
+<div class="node">Surveillance des accès, détection d’intrusion
+</div>
+  </div>
+
+ <div class="box">
+    <img src="my365.jpg"class=imgg id="my365">
+    <h1>My-365</h1>
+    <h2 class="ff">Nos équipes sont bien formé pour vous garantir un suivi efficace de vos licence O365, et garantir la sécurité selon ma pollitique décidée par votre DSI.
+ 
+</h2></div>
+   <div class="tree">
+  <div class="root">Nous serons à même capable de vous libérer des tâches de suivi et d’administration pour se folcaliser sur les sujets stratégique de la DSI. Dans ce cadre, nos techniciens et ingénieur environnement de travail, seront en mesure de :
+</div>
+  <div class="branches">
+    <div class="node">Gérer les licence O365: Attribution, modification, renouvellement
+</div>
+ <div class="node">Gestion d’exchange Online: Création et suppréssion de boite mail personnalisée ou partagées, alias, redirections
+
+</div>
+ <div class="node">Gestion des groupes Teams: Création, permissions, archivage
+
+</div>
+  <div class="node">Sécurité : MFA, DLP, audit, journalisation
+
+</div>
+<div class="node">Support applicatif: Outlook, OneDrive, SharePoint, Teams
+
+</div>
+  </div> 
+  <div class="box">
+    <img src="mywplc.jpg"class=imgg id="myworkplace">
+    <h1>My Workplace</h1>
+    <h2 class="ff">Nos administrateurs et spécialistes environnement de travaille, sont toujours prêt pour vos garantir un parc homogène et sécurisé qui participe à la baisse de nombre d’incidents utilisateurs.
+
+ 
+</h2></div>
+   <div class="tree">
+  <div class="root">Notre conviction est qu’un parc homogène et sécurisé, génère la satisfactions des utilisateurs finaux au vue de baisse de problématique informatiques mais aussi la garantie des temps de rétablissement des services en cas de sousi. Notre équipe, réalisera pour vous:
+Détails 
+
+</div>
+  <div class="branches">
+    <div class="node">Une veille de sécurité: Patch management, Antovorus (déploiement, mise à niveau, mise à jour de base virale...)
+
+</div>
+ <div class="node">Un socle logiciel homogène avec une veille techno sur les nouvelles release et mise à jour
+
+
+</div>
+ <div class="node">Un socle système unifié par métier, avec une gestion de mise à jour à deux reprises par an
+
+
+</div>
+  </div> 
+    <div class="box">
+    <img src="mysys.jpg"class=imgg id="mysys">
+    <h1>My SYS</h1>
+    <h2 class="ff">Une équipe d’ingénieurs systèmes formée et préparée pour travailler sur des infrastructures systèmes on-promise ou en cloud ou même hybrides.
+
+</h2></div>
+   <div class="tree">
+  <div class="root">Grâce à nos compétences mutualisées acquises sur plusieurs infrastructures administrées, nous serons capables de vous garantir la bonne gestion de :
+Détails 
+
+
+</div>
+  <div class="branches">
+    <div class="node">Installation, configuration, sauvegarde, sécurit des serveur on-promise
+
+</div>
+ <div class="node">Déploiement, monitoring, optimisation des coûts des infra hébergées en cloud (Azure, AWS)
+</div>
+ <div class="node">Création de VM, snapshots, migration, haute disponibilité
+
+</div>
+<div class="node">Politique de backup, tests de restauration
+
+</div>
+<div class="node">Application des correctifs de sécurité sans intérruption de services
+
+
+</div>
+  </div> 
+  <div class="box">
+    <img src="myitil.jpg"class=imgg id="myitil">
+    <h1>My ITIL</h1>
+    <h2 class="ff">En tant qu’experts en matière de structuration, optimisation et la transformation des services informatiques. nous intyervenons avec notre savoir-faire pour accompagner les service IT des entreprise dans l’amélioration de la qualité de services IT et la satisfaction utilisateurs
+
+</h2></div>
+   <div class="tree">
+  <div class="root">Nos experts interviendront pour la’anlyse de l’existant et transformer les faiblaisse du système de gestion des services IT en opportunités d’amélioration et alignement startégique entre IT & métiers. Nous serons à même capable de  :
+Détails 
+
+
+
+</div>
+  <div class="branches">
+    <div class="node">Évaluation de la maturité des processus ITIL : Diagnostic et audit ITSM
+
+</div>
+ <div class="node">Conception et optimisation des processus, cartographi des flux, mise en place des KPI, alignement des processus avec les objectifs métier
+
+</div>
+ <div class="node">Accompagnement au changement: Formation, coashing, ateliers, communication
+</div>
+<div class="node">Assistance à la maitrise d’oeuvrage pour l’intégration et le paramétrage de votre ITSM
+
+</div>
+<div class="node">Pilotage de la performance et amélioration continue
+
+
+</div>
+<div class="node">Gouvernance et conformité
+</div>
+  </div> 
+  <div class="box">
+    <img src="myreport.jpg"class=imgg id="myreport">
+    <h1>My Report</h1>
+    <h2 class="ff">Nos data analyst sont prêt pour acceuillir et analyser vos besoins en reporting et vous accompagner pour les affiner et développer des dashboards vous permettrant d’avoir une visibilité claire d’une synthèses de vos activités vous aidant à prendre les décisions adéquates
+</h2></div>
+   <div class="tree">
+  <div class="root">Nos experts interviendront pour la’anlyse de l’existant et transformer les faiblaisse du système de gestion des services IT en opportunités d’amélioration et alignement startégique entre IT & métiers. Nous serons à même capable de  :
+Détails 
+
+
+
+
+</div>
+  <div class="branches">
+    <div class="node">Analyse des besoins & cadrage: ( Recueil des besoins métiers et des indicateurs clés (KPI, Identification des sources de données (ERP, CRM, Excel, SQL, etc.),Définition des objectifs de reporting : opérationnel, stratégique, financier…, Élaboration d’un cahier des charges fonctionnel
+
+
+</div>
+ <div class="node">Modélisation des données: - Nettoyage et transformation des données avec Power Query
+
+</div>
+ <div class="node">Création de rapports et tableaux de bord: Conception de visuels interactifs et ergonomiques, Intégration de filtres, slicers, drill-through et bookmarks, Création de rapports dynamiques 
+
+</div>
+<div class="node">Automatisation & actualisation des données: Programmation des rafraîchissements automatiques, Connexion à des sources cloud (SharePoint, OneDrive, Azure SQL, etc.), Gestion des passerelles de données (on-premise gateway)
+
+
+  </div> </div></div></section></div></div></div></div></div></h2></div>
+ <section class="enjeux-section">
+  <h2 class="enjeux-title" id="Enjeux">Nos enjeux</h2>
+  <p class="enjeux-subtitle">
+    Des engagements forts pour accompagner durablement nos clients.
+  </p>
+
+  <div class="enjeux-grid">
+
+    <div class="enjeu-card">
+      <div class="enjeu-icon">🤝</div>
+      <h3>Gouvernance partenariale</h3>
+      <p>
+        Transparence, comités de pilotage réguliers et co-construction
+        des solutions IT alignées aux objectifs business.
+      </p>
+    </div>
+
+    <div class="enjeu-card">
+      <div class="enjeu-icon">🕒</div>
+      <h3>Disponibilité 24/7</h3>
+      <p>
+        Supervision continue, support 24h/24 et plans PCA/PRA
+        pour garantir une continuité de service optimale.
+      </p>
+    </div>
+
+    <div class="enjeu-card">
+      <div class="enjeu-icon">🧠</div>
+      <h3>Support métier</h3>
+      <p>
+        Des équipes dédiées par secteur avec une compréhension
+        fine des processus métiers et contraintes réglementaires.
+      </p>
+    </div>
+
+    <div class="enjeu-card">
+      <div class="enjeu-icon">🌍</div>
+      <h3>Support multilingue</h3>
+      <p>
+        Support en français, anglais, arabe et documentation
+        adaptée aux environnements internationaux.
+      </p>
+    </div>
+
+    <div class="enjeu-card">
+      <div class="enjeu-icon">😊</div>
+      <h3>Satisfaction utilisateurs</h3>
+      <p>
+        Suivi CSAT & NPS, amélioration continue et expérience
+        utilisateur au cœur de notre démarche.
+      </p>
+    </div>
+
+  
+</section>
+ <div class="image-hover-container">
+  <img src="it.png" alt="ITH Support">
+</div>
+
+    <h2 class="section-title" id="pourquoi">Pourquoi choisir ITH ?</h2>
+<p class="section-subtitle">
+Une approche claire, flexible et orientée qualité.
+</p>
+
+    <div class="why-schema">
+
+  <div class="why-card">
+    <h3>Qualité de service</h3>
+    <p>
+      Engagements clairs, suivi rigoureux et garantie de prise en charge
+      de toutes les demandes et incidents.
+    </p>
+  </div>
+
+  <div class="why-card">
+    <h3>Flexibilité</h3>
+    <p>
+      Période d’essai de 3 mois et plusieurs modes de facturation
+      adaptés à vos besoins.
+    </p>
+  </div>
+
+  <div class="why-card">
+    <h3>Transparence</h3>
+    <p>
+      Abonnements clairs, interventions à la demande et visibilité totale
+      sur les coûts.
+    </p>
+  </div>
+
+</div>
+ <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+ <script>
+  (function(){
+    emailjs.init("kDJw44s4uliGiDJf0");
+  })();
+</script>
+
+    
+  <div class="contact-header">
+  <h1 id="form">Contactez-nous</h1>
+  <span class="line"></span>
+  <p>Parlons de votre projet IT.</p>
+</div>
+
+</div>
+
+    <div class="form-container">
+    <form id="contactform">
+
+       <div class="frr"> <input type="text" placeholder="nom et prenom" name="nom" required ></div>
+       <div class="frr"> <input type="email" placeholder="email " name="email" required></div>
+        <div class="frr"><input type="text" placeholder="numero telephone" name="numero" maxlength="8" required></div>
+       <div class="frr"> <input type="text" placeholder="Nom de l'entreprise" name="entreprise" required></div>
+        <div class="frr"><input type="text" name="poste" pLaceholder="Poste"></div>
+        <div class="frr"><select><option>titre du message</option><option>t1</option><option>t2</option></select></div>
+       <div class="frr"> <textarea name="explique" placeholder="explique "></textarea></div>
+   
+    <div class="consent"><input type="checkbox" required >J’accepte que mes données soient utilisées pour me contacter</div>
+    <div class="frr"><input type="submit" value="Envoyer"></div>
+    <div class="frr"><input type="reset" value="Effacer"></div>
+  
+</form>
+</div>
+<div class="contact-info">
+  <p class="contact-title">Autres moyens de contact</p>
+
+  <p class="contact-item">📧 contact@ith.com</p>
+  <p class="contact-item">📞 +216 XX XXX XXX</p>
+  <p class="contact-item">📍 Tunis, Tunisie</p>
+</div>
+
+<script>
+  document.getElementById("contactform").addEventListener("submit", function(event) {
+    event.preventDefault(); // empêche le rechargement
+
+    emailjs.sendForm(
+      "service_qe41w9g",
+      "template_sbrgnjc",
+      this
+    ).then(
+      function() {
+        alert("Message envoyé avec succès !");
+      },
+      function(error) {
+        alert("Erreur : " + JSON.stringify(error));
+      }
+    );
+  });
+</script>
+
+</body>
